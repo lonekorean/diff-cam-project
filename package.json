@@ -1,0 +1,8 @@
+{
+  "name": "diff-cam-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple hub site for Diff Cam project.",
+  "author": "Will Boyd",
+  "license": "MIT"
+}

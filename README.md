@@ -1,3 +1,3 @@
 # diff-cam-project
 
-Simple hub for Diff Cam site.
+Simple hub site for Diff Cam project.
