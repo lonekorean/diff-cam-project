@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "description": "Simple hub site for Diff Cam project.",
+  "scripts": {
+    "start": "",
+  },
   "author": "Will Boyd",
   "license": "MIT"
 }
