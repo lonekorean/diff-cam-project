@@ -1,8 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
 body {
-	margin: 20px;
-	font: 1.2em/1.5 sans-serif;
+	max-width: 800px;
+	margin: 20px auto;
+	font: 1.2em/1.5 'Open Sans', sans-serif;
 }
 
 a {
 	color: #0aa;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+li {
+	padding-bottom: 20px;
+}
+
+.notes {
+	border-top: 1px dashed #999;
 }

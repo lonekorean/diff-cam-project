@@ -3,23 +3,66 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Some demos related to motion detection with JavaScript.">
 
         <title>Diff Cam Project</title>
 
+        <link rel="icon" type="image/png" href="favicon.png" />
         <link href="site.css" rel="stylesheet">
     </head>
     <body>
 		<h1>Diff Cam Project</h1>
 		<p>
-			Demos and whatever else. Work in progress. Based on <a href="https://github.com/lonekorean/diff-cam-engine">diff-cam-engine</a>. Twitter <a href="https://twitter.com/diffcamproject">@diffcamproject</a>.
-		</p>
+			Some demos related to motion detection with JavaScript. If you like this stuff, check out <a href="https://github.com/lonekorean/diff-cam-engine">diff-cam-engine</a>.
+        </p>
+        <p>
+            Twitter: <a href="https://twitter.com/diffcamproject">@diffcamproject</a>.
+        </p>
 		<ul class="demos">
-			<li>
-				<a href="https://diff-cam-feed.herokuapp.com/">Diff Cam Feed</a>
-				(<a href="https://github.com/lonekorean/diff-cam-feed">diff-cam-feed</a>)
+            <li>
+				<strong><a href="https://diff-cam-feed.herokuapp.com/">Diff Cam Feed</a></strong>
 				<br>
 				Web app that uses motion detection to take a snapshot when something moves, then uploads the image to Twitter.
+                (<a href="https://github.com/lonekorean/diff-cam-feed">repo</a>)
+			</li>
+            <li>
+				<strong><a href="https://diff-cam-scratchpad.herokuapp.com/simple-cam/">Simple Cam</a></strong>
+				<br>
+				Very basic demo showing how to access the webcam.
+                (<a href="https://github.com/lonekorean/diff-cam-scratchpad/tree/master/simple-cam">repo</a>)
+			</li>
+            <li>
+				<strong><a href="https://diff-cam-scratchpad.herokuapp.com/image-diff/">Image Diff</a></strong>
+				<br>
+				Web app that accepts two images via drag-and-drop, then lets you diff them to see any pixels that are not the same.
+                (<a href="https://github.com/lonekorean/diff-cam-scratchpad/tree/master/image-diff">repo</a>)
+			</li>
+            <li>
+				<strong><a href="https://diff-cam-scratchpad.herokuapp.com/diff-cam-example/">Diff Cam Example</a></strong>
+				<br>
+				Watches a live stream from the webcam, showing a real-time motion heatmap with a score indicating how much motion is present.
+                (<a href="https://github.com/lonekorean/diff-cam-scratchpad/tree/master/diff-cam-example">repo</a>)
+			</li>
+            <li>
+				<strong><a href="https://diff-cam-scratchpad.herokuapp.com/turret-security/">Turret Security</a></strong>
+				<br>
+				A "security" demo that watches a live stream from the webcam, drawing a box around any motion it sees, with accompanying audio cues. Turret can be disabled by "hitting" it on screen.
+                (<a href="https://github.com/lonekorean/diff-cam-scratchpad/tree/master/turret-security">repo</a>)
+			</li>
+            <li>
+				<strong><a href="https://diff-cam-scratchpad.herokuapp.com/spooky-bug/">Spooky Bug</a></strong>
+				<br>
+				Failed attempt at time-delayed motion sensing. Spooky results. This code is terrible, do not use as-is.
+                (<a href="https://github.com/lonekorean/diff-cam-scratchpad/tree/master/spooky-bug">repo</a>)
 			</li>
 		</ul>
+        <div class="notes">
+            <p>
+                Created by Will Boyd.
+            </p>
+            <p>
+                Site: <a href="http://codersblock.com/">Coder's Block</a>. Twitter: <a href="https://twitter.com/lonekorean">@lonekorean</a>.
+            </p>
+        </div>
     </body>
 </html>
